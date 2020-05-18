@@ -1,0 +1,162 @@
+@font-face {
+    font-family: SocialIco;
+    src: url(fonts/Socialico.ttf);
+}
+
+html,
+body {
+    min-height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.clearfix:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+/*HEADER*/
+
+.header {
+    padding-left: 204px;
+    padding-top: 33px;
+    padding-right: 304px;
+    padding-bottom: 36px;
+}
+
+.address {
+    float: right;
+}
+
+.workTime,
+.mail,
+.callUs {
+    float: left;
+    margin-right: 56px;
+}
+
+.menuDivisions li {
+    list-style: none;
+    float: left;
+    margin-right: 10px;
+    font-weight: 600;
+}
+
+.menu-link-active {
+    color: black;
+}
+
+.menu-link:hover {
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    color: #6A6A6A;
+    font-size: 20px;
+}
+
+.socialMedia {
+    font-family: SocialIco, sans-serif;
+    float: right;
+}
+
+
+/*MAIN*/
+
+.bestMedicare {
+    background-image: url(img/docheader.png);
+}
+
+.medicare {
+    padding-left: 253px;
+    padding-top: 180px;
+    padding-bottom: 37px;
+    width: 600px;
+}
+
+h1 {
+    font-size: 48px;
+    text-align: center;
+}
+
+p {
+    margin-top: 37px;
+    text-align: center;
+}
+
+.readMore {
+    margin-top: 41px;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 35px;
+    background-color: #1A9BDC;
+    width: 167px;
+    height: 48px;
+    color: #fff;
+    font-size: 13px;
+    box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
+    font-weight: 600;
+    border: none;
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
+    outline: none;
+}
+
+.advantages {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.block {
+    text-align: center;
+    padding-top: 75px;
+    padding-right: 75px;
+    padding-left: 75px;
+    padding-bottom: 57px;
+    color: white;
+}
+
+figure {
+    text-align: center;
+    background-color: white;
+    border-radius: 100px;
+    width: 76px;
+    height: 76px;
+}
+
+.stethoscope {
+    background-color: #43B1D2;
+}
+
+.telephone {
+    background-color: #3FB6C6;
+}
+
+.logodoc {
+    background-color: #3CBBBB;
+}
+
+.ambulance {
+    background-color: #37C3A8;
+}
+
+h3,
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+p {
+    font-size: 16px;
+}
+
+h3 {
+    font-size: 26px;
+}
